@@ -1,0 +1,306 @@
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+  color: #111111;
+}
+
+/* ========HEADER */
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.text-italic {
+  font-style: italic;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #fd9222;
+}
+
+/* ========Style HERO Section 1 */
+.hero {
+  background: #1e1823;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+.byu-nov-button {
+  font-weight: 600;
+  font-size: 14px;
+  background: #fd9222;
+}
+.byu-nov-button:hover,
+.byu-nov-button:focus {
+  color: #fd9222;
+  background: #fcf1e0;
+}
+
+.how-its-made-link {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.how-its-made-link:hover,
+.how-its-made-link:focus {
+  color: #fd9222;
+}
+.scroll-down-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.scroll-down-link:hover,
+.scroll-down-link:focus {
+  color: #fd9222;
+}
+
+/* ========Style benefits Section 2 */
+.benefits {
+  background: #1e1823;
+}
+
+.benefits-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.benefits-description {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ========Style INGREDIENTS Section 3 */
+
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ingr-tit-taste {
+  color: #fd9222;
+}
+.ingr-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.ingr-milk-choc {
+  background: #fd9222;
+}
+.milk-choc {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ingr-milk {
+  background: #ffffff;
+}
+
+.milk {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.ing-nuts {
+  background: #1e1823;
+}
+.nuts {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ingr-s-s-choc {
+  background: #ffffff;
+}
+.s-s-choc {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+/* ========Style INGREDIENTS Section 4 */
+
+.how-its-made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+}
+
+.made-title {
+  color: #fd9222;
+}
+
+.made-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  line-height: 1.33;
+  color: #111111;
+}
+/* ========ПОВЕРНУТИ КРАПОЧКИ */
+.made-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+/* ========Style FEEDBACK Section 5 */
+.feedback-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fd9222;
+}
+
+.feedback-color {
+  color: #111111;
+}
+.feedback-autor-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111111;
+}
+.feedback-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+.feedback-item {
+  background: #ffffff;
+}
+.feedback-button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111111;
+}
+.feedback-button:hover,
+.feedback-button:focus {
+  color: #ffffff;
+}
+/* ========Style FOOTER */
+.footer-page {
+  background: #1e1823;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fd9222;
+}
+.footer-title-color {
+  color: #ffffff;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+}
+.contact-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: #fd9222;
+}
